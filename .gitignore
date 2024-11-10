@@ -1,14 +1,23 @@
-# Compiled class file
-*.class
+HELP.md
+build/
+!**/src/main/**
+!**/src/test/**
 
-# Log file
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+.DS_Store
+
+
+
+### Gradle ###
+.gradle
+
+### Logs ###
 *.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
 
 # Package Files #
 *.jar
